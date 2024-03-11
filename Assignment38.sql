@@ -1,6 +1,5 @@
-use retail;
+-- 38 Generate a report with all members who stay in district id 19
 
-SELECT * FROM `member` m 
-WHERE 
+USE retail;
+SELECT * FROM member 
 WHERE district_id = 19;
-
